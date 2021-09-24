@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Input from './components/Input';
 
 function App() {
   return (
     <div className="App">
-      <h1>DeeKay is here</h1>
+    {/* todolist */}
+    {/* done */}
+    <Input/>
     </div>
   );
 }
