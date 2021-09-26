@@ -9,7 +9,7 @@ const Input = () => {
     }
 
     return (
-        <div className='input'>
+        <div class='input'>
             <input type="text" value={input} onChange={e=>setInput(e.target.value)}/>
             <button onClick={addTodo}>Add!</button>
         </div>
