@@ -1,11 +1,11 @@
 import React from 'react'
-//import './TodoItem.css';
+import './TodoItem.css';
 import { Checkbox } from '@material-ui/core';
 
 const TodoItem = ({ name, done, id }) => {
 
     const handleCheck = () => {
-
+        console.log("CHECKED")
     }
 
     return (
